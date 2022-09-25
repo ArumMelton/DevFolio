@@ -43,5 +43,8 @@
       "last 5 firefox version",
       "last 5 safari version"
     ]
+  },
+  "devDependencies": {
+    "@iconify/react": "^4.0.0"
   }
 }

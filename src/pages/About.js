@@ -11,6 +11,7 @@ import Service from "../components/Service";
 import Spinner from "../components/Spinner";
 import Testimonial from "../components/Testimonial";
 
+
 function About() {
   const [toggler, setToggler] = useState(false);
   const [information, setInformation] = useState("");
