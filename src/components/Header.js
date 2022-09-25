@@ -34,7 +34,7 @@ function Header() {
               src={information.brandImage}
               placeholder="/images/about-image-placeholder.png"
             >
-              {(src) => <img src={src} alt="brandimage" />}
+              {(src) => <img style={{zoom:"50%"}} src={src} alt="brandimage" />}
             </ProgressiveImage>
           </Link>
         </div>

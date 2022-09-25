@@ -2,14 +2,14 @@ import Mock from "../mock";
 
 const database = {
   information: {
-    name: 'Devid Chester',
-    aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
-    age: 24,
+    name: 'Arum Melton',
+    aboutContent: "Full Stack Developer from Raleigh, NC. Welcome to my page!",
+    age: 27,
     phone: '',
-    nationality: 'American',
-    language: 'English, French',
-    email: '',
-    address: '121 King Street, Melbourne, Australia',
+    nationality: '',
+    language: '',
+    email: 'arummeltondev@gmail.com',
+    address: '',
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: 'https://facebook.com',
@@ -20,7 +20,7 @@ const database = {
       dribbble: '',
       github: 'https://github.com'
     },
-    brandImage: '/images/brand-image.jpg',
+    brandImage: '/images/ArumsLogo.png',
     aboutImage: '/images/about-image.jpg',
     aboutImageLg: '/images/about-image-lg.jpg',
     cvfile: '/files/empty.pdf'
@@ -37,34 +37,46 @@ const database = {
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
     },
     {
-      title: "Mobile Application",
+      title: "Full Stack Engineering",
+      icon: 'layers',
+      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+    },
+    {
+      title: "Mobile Applications",
       icon: 'mobile',
       details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
-    }
+    },
+    {
+      title: "Music & Sound Production",
+      icon: 'music',
+      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+    },
+    {
+      title: "Audio Engineering & Design",
+      icon: 'headphone',
+      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+    },
+    {
+      title: "Videography & Production",
+      icon: 'video',
+      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+    },
   ],
   reviews: [
     {
       id: 1,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam, aliquid maxime tempora.",
+      content: "Arum built me a website that began as a front-end webpage. As we grew as a company, we needed more capability that extended to back-end development. He was extremely accomadating and was easily able to fit our needs!",
       author: {
-        name: 'Burdette Turner',
-        designation: 'Web Developer, Abc Company'
+        name: 'Tom V.',
+        designation: 'Client - Tombachi Restaurants'
       }
     },
     {
       id: 2,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita impedit nobis tempore quaerat quibusdam.",
+      content: "Arum's app that he created for me and my disc golf community was absolutely incredible. Very easy to navigate and the UI is beautiful",
       author: {
-        name: 'Susan Yost',
-        designation: 'Client'
-      }
-    },
-    {
-      id: 3,
-      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-      author: {
-        name: 'Irving Feeney',
-        designation: 'Fiverr Client'
+        name: 'Antonio F.',
+        designation: 'Client - Disc Golfer'
       }
     }
   ],

@@ -58,7 +58,7 @@ function About() {
   return (
     <Layout>
       <Helmet>
-        <title>About - Chester React Personal Portfolio Template</title>
+        <title>About Arum Melton</title>
         <meta
           name="description"
           content="Chester React Personal Portfolio Template About Page"
@@ -95,17 +95,20 @@ function About() {
               <div className="col-lg-6">
                 <div className="mi-about-content">
                   <h3>
-                    I am <span className="color-theme">{information.name}</span>
+                   <span className="color-theme">{information.name}</span>
                   </h3>
                   <p>
-                    I am a frontend web developer. I can provide clean code and
-                    pixel perfect design. I also make website more & more
-                    interactive with web animations.
+                  Hi and welcome to my portfolio! My name is Arum Melton. I have been developing software since April of 2022.
+                  It has been an amazing experience that has sparked many emotions for me.
+                  I am also a full time music producer, audio engineer, and DJ. Combining the skills of software with music have been a
+                  dream of mine for a long time, and fortunately enough, I have finally begun the journey. I am based in Raleigh, NC
+                  but travel for just about any project across all
+                  disciplines, platforms, and creative mediums. Enjoy my work!
                   </p>
                   <ul>
                     {!information.name ? null : (
                       <li>
-                        <b>Full Name</b> {information.name}
+                        <b>Name</b> {information.name}
                       </li>
                     )}
                     {!information.age ? null : (
