@@ -9,6 +9,8 @@ import Resume from "../components/Resume";
 import Sectiontitle from "../components/Sectiontitle";
 import Smalltitle from "../components/Smalltitle";
 import Spinner from "../components/Spinner";
+import NCSU from "../components/NCSU";
+import UNC from "../components/UNC";
 
 function Resumes() {
   const [skills, setSkills] = useState([]);
@@ -52,6 +54,10 @@ function Resumes() {
             </div>
             <div className="mt-30"></div>
             <Smalltitle title="Educational Qualifications" icon="book" />
+            <div style={{}}>
+            <div style={{display:"inline-block"}}><NCSU></NCSU></div>
+            <div style={{display:"inline-block"}}><UNC></UNC></div>
+            </div>
             <div className="mi-resume-wrapper">
               {educationExperience.map((educatonExp) => (
                 <Resume key={educatonExp.id} resumeData={educatonExp} />

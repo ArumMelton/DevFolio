@@ -1,4 +1,6 @@
 import Mock from "../mock";
+import "../../etcassets/centered_logo.png"
+import "../../etcassets/ncstate-type-2x2-red-max.png"
 
 const database = {
   information: {
@@ -293,47 +295,49 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2022",
+        position: "Contract/Freelance Web Development",
+        company: "Tombachi Restaurants",
+        details: "Develop and maintain full stack web application for Tombachi Restaurants.",
+       
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2019 - 2022",
+        position: "Banquet & Event Lead Server/Bartender",
+        company: "Drive Shack (Raleigh)",
+        details: "Individually handled large parties of up to 30 people, took lead of parties up to 300 guests. In charge of fellow servers for private events held at Drive Shack. I also bartended and handled most of the customer experience of service at the venue."
       },
       {
         id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2016 - 2019",
+        position: "Bartender, Server",
+        company: "Brio Tuscan Grill",
+        details: "Bartended and Served at Brio. Handled money, and cash outs for servers. In charge of opening and closing the bar with extremely limited supervision."
       }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2022",
+        graduation: "Certification",
+        university: "University of North Carolina at Chapel Hill",
+        details: "Earned Certification for Full Stack Software Engineering and Development.",
+        
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2013-2018",
+        graduation: "(M) Film; (m) Communications, English",
+        university: "North Carolina State University",
+        details: "Attended NCSU and majored in Film. Minoring in Communications and English."
       },
       {
         id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2009-2013",
+        graduation: "Higher School Diploma",
+        university: "Southeast Guilford High",
+        details: "Graduated 13th in a class of 367. Weighted GPA: 4.675, Unweighted: 3.87. Varsity letterman and captain in Football and Lacrosse (3yrs)"
       }
     ]
   },
@@ -475,9 +479,9 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['(919)819-9414', ''],
+    emailAddress: ['arummeltondev@gmail.com', 'meltworkmail@gmail.com'],
+    address: "Raleigh, NC"
   }
 }
 
