@@ -101,12 +101,10 @@ function About() {
                    <span className="color-theme">{information.name}</span>
                   </h3>
                   <p>
-                  Hi and welcome to my portfolio! My name is Arum Melton. I have been developing software since April of 2022.
-                  It has been an amazing experience that has sparked many emotions for me.
-                  I am also a full time music producer, audio engineer, and DJ. Combining the skills of software with music have been a
-                  dream of mine for a long time, and fortunately enough, I have finally begun the journey. I am based in Raleigh, NC
-                  but travel for just about any project across all
-                  disciplines, platforms, and creative mediums. Enjoy my work!
+                  Welcome to my portfolio! My name is Arum Melton. I have been developing software as of April 2022.
+                  I am also a full time music producer, audio engineer, and DJ. Combining the skills of software and music have been a
+                  dream of mine, fortunately enough, I have finally begun the journey. Based in Raleigh, NC
+                  but travel for just about any project across all disciplines, platforms, and creative mediums. Enjoy my work!
                   </p>
                   <ul>
                     {!information.name ? null : (

@@ -129,41 +129,34 @@ const database = {
     },
     {
       id: 3,
-      title: "Sneakers Seekers",
-      subtitle: "Full stack web application that allows users to sign in, view and save new shoe releases, as well as sign up for news on new releases.",
-      imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/Screenshot%202022-09-20%20203354.png?raw=true",
-      url: 'https://sneaker-seekers.netlify.app/'
-    },
-    {
-      id: 4,
       title: "CheckIt",
       subtitle: "Intuitive weather checking web application.",
       imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/Check%20This%20Weather%20Mock.png?raw=true",
       url: 'https://arummelton.github.io/check-this-weather/'
     },
     {
-      id: 5,
+      id: 4,
       title: "NoteApp",
       subtitle: "Simple notes application that allows users to take a note and save using local storage.",
       imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/DaNoteTakerDemo.png?raw=true",
       url: "https://danotetaker-app.herokuapp.com/"
     },
     {
-      id: 6,
+      id: 5,
       title: "Password Generator",
       subtitle: "Simple password generator.",
       imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/passmock1.jpg?raw=true",
       url: 'https://arummelton.github.io/pass-the-word/'
     },
     {
-      id: 7,
+      id: 6,
       title: "ScheduleMe",
       subtitle: "Allows users to keep track of daily schedule.",
       imageUrl: "https://github.com/ArumMelton/schedule-me/raw/main/assets/images/ScheduleMeScreenshot.png",
       url: 'https://arummelton.github.io/schedule-me/'
     },
     {
-      id: 8,
+      id: 7,
       title: "Quizless",
       subtitle: "An Interactive Coding Quiz Application",
       imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/quizmock1.jpg?raw=true",
