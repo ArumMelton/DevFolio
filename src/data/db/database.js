@@ -14,7 +14,7 @@ const database = {
     address: '',
     freelanceStatus: 'Available',
     socialLinks: {
-      facebook: 'https://facebook.com',
+      facebook: '',
       twitter: 'https://twitter.com/just_melt',
       pinterest: '',
       behance: '',
@@ -29,43 +29,43 @@ const database = {
     brandImage: '/images/ArumsLogo.png',
     aboutImage: '/images/falls.jpg',
     aboutImageLg: '/images/falls.jpg',
-    cvfile: './files/ArumResume2022.docx'
+    cvfile: '/files/ArumResume2022.docx'
   },
   services: [
     {
       title: "Web Design",
       icon: 'brush-alt',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Provide beautiful, interactive, and responsive designs."
     },
     {
       title: "Web Development",
       icon: 'code',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Intuitive user experience integrated with an optimized build, resulting in endless opportunities for expansion."
     },
     {
       title: "Full Stack Engineering",
       icon: 'layers',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Ability to build, write, and design full stack applications. Local machine deployments that include Audio Unit Packages, VST2, and VST3 plugins for Digital Audio Workstations or DAWs)."
     },
     {
       title: "Mobile Applications",
       icon: 'mobile',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "Develop an application for Web, IOS, Android."
     },
     {
       title: "Music & Sound Production",
       icon: 'music',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "7 Years of music production experience. Extremely well versed in Logic Pro, Ableton Live, and Izotope Ozone. "
     },
     {
       title: "Audio Engineering & Design",
       icon: 'headphone',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "7 Years of audio engineering and design experience. Mixing, tracking, sound design with Xfer Serum (Wavetable), mastering with Izotope's Ozone Advanced."
     },
     {
       title: "Videography & Production",
       icon: 'video',
-      details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod."
+      details: "5 years of education and training at NCSU for videography, typically using Final Cut Pro"
     },
   ],
   reviews: [

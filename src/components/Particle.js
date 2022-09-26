@@ -17,10 +17,10 @@ function Particle({lightMode}) {
         value: 0.1,
       },
       size: {
-        value: 5,
+        value: 6,
         random: true,
         anim: {
-          speed: 4,
+          speed: 6,
           size_min: 0.3,
         },
       },
@@ -40,7 +40,7 @@ function Particle({lightMode}) {
   const paramConfigLight = {
     particles: {
       number: {
-        value: 160,
+        value: 170,
         density: {
           enable: false,
         },
@@ -65,7 +65,7 @@ function Particle({lightMode}) {
       move: {
         enable: true,
         random: true,
-        speed: 1,
+        speed: 2,
         direction: "top",
         out_mode: "out",
       },

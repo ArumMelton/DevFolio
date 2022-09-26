@@ -5,6 +5,7 @@ import mongoose from "../etcassets/mongoosewhite1.png";
 
 
 function Skills() {
+  
   // skills icons
   const skillIcons = [
     {
@@ -73,6 +74,11 @@ function Skills() {
       alt: "Heroku",
     },
     {
+      name: "Netlify",
+      src: "simple-icons:netlify",
+      alt: "Netlify",
+    },
+    {
       name: "API",
       src: "carbon:api",
       alt: "API",
@@ -81,6 +87,41 @@ function Skills() {
       name: "REST API",
       src: "dashicons:rest-api",
       alt: "REST API",
+    },
+    {
+      name: "Flutter",
+      src: "cib:flutter",
+      alt: "flutter",
+    },
+    {
+      name: "Handlebars",
+      src: "simple-icons:handlebarsdotjs",
+      alt: "abletonlive",
+    },
+    {
+      name: "Firebase",
+      src: "bxl:firebase",
+      alt: "firebase",
+    },
+    {
+      name: "Insomnia",
+      src: "simple-icons:insomnia",
+      alt: "insomnia",
+    },
+    {
+      name: "Ableton Live",
+      src: "simple-icons:abletonlive",
+      alt: "abletonlive",
+    },
+    {
+      name: "Pro Tools",
+      src: "fad:logo-protools",
+      alt: "protools",
+    },
+    {
+      name: "Adobe Premiere Pro",
+      src: "file-icons:adobe-premiere",
+      alt: "adobepr",
     },
   ];
 
@@ -101,22 +142,9 @@ function Skills() {
               key={icon.name}
             >
               <Icon icon={icon.src} color="#white" width="75" height="75" />
-              <h5 className="skills">{icon.name}</h5>
+              <h5 className="skills" style={{}}>{icon.name}</h5>
             </div>
           ))}
-          {/* additional icons */}
-          <div className="col-xm-12 col-sm-6 col-md-4 col-lg-2">
-            <img
-              src={handlebarsIcon}
-              alt="handlebars"
-              style={{ color:"#white", width: "76px" }}
-            ></img>
-            <h5 className="skills">Handlebars</h5>
-          </div>
-          <div className="col-xm-12 col-sm-6 col-md-4 col-lg-2">
-            <img src={mongoose} alt="mongoose" style={{ color:"#white", width: "76px" }}></img>
-            <h5 className="skills">Mongoose</h5>
-          </div>
         </div>
       </div>
     </section>
