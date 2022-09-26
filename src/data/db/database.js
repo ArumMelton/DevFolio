@@ -15,17 +15,21 @@ const database = {
     freelanceStatus: 'Available',
     socialLinks: {
       facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+      twitter: 'https://twitter.com/just_melt',
       pinterest: '',
       behance: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/arum-melton-9b21b0237/',
       dribbble: '',
-      github: 'https://github.com'
+      github: 'https://github.com/ArumMelton',
+      instagram: 'https://www.instagram.com/itsjustmelt_/',
+      soundcloud: 'https://soundcloud.com/dvise',
+      spotify: 'https://open.spotify.com/artist/3jtj8lhpwHDOFtfET0OSH7?si=YB1CcVFmSUOk2FOAbUnt1Q',
+      itunes: 'https://music.apple.com/us/artist/dvise/1449641255'
     },
     brandImage: '/images/ArumsLogo.png',
-    aboutImage: '/images/about-image.jpg',
-    aboutImageLg: '/images/about-image-lg.jpg',
-    cvfile: '/files/empty.pdf'
+    aboutImage: '/images/falls.jpg',
+    aboutImageLg: '/images/falls.jpg',
+    cvfile: './files/ArumResume2022.docx'
   },
   services: [
     {
@@ -111,184 +115,59 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "Tombachi Restaurants",
+      subtitle: "Full stack website for Tombachi Restaurants.",
+      imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/TombachiDemo.png?raw=true",
+      url: 'http://www.tombachirestaurants.com/'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
+      title: "Sip-Happens",
+      subtitle: "Full Stack application allowing a user to sign in/up and view wines and then save expert suggested food pairings. The site is also linked to a retailer, allowing the user to purchase wines as well.",
+      imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/DemoHome.png?raw=true",
+      url: 'https://sip-happens-unc.herokuapp.com/'
     },
     {
       id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+      title: "Sneakers Seekers",
+      subtitle: "Full stack web application that allows users to sign in, view and save new shoe releases, as well as sign up for news on new releases.",
+      imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/Screenshot%202022-09-20%20203354.png?raw=true",
+      url: 'https://sneaker-seekers.netlify.app/'
     },
     {
       id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
+      title: "CheckIt",
+      subtitle: "Intuitive weather checking web application.",
+      imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/Check%20This%20Weather%20Mock.png?raw=true",
+      url: 'https://arummelton.github.io/check-this-weather/'
     },
     {
       id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+      title: "NoteApp",
+      subtitle: "Simple notes application that allows users to take a note and save using local storage.",
+      imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/DaNoteTakerDemo.png?raw=true",
+      url: "https://danotetaker-app.herokuapp.com/"
     },
     {
       id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+      title: "Password Generator",
+      subtitle: "Simple password generator.",
+      imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/passmock1.jpg?raw=true",
+      url: 'https://arummelton.github.io/pass-the-word/'
     },
     {
       id: 7,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
+      title: "ScheduleMe",
+      subtitle: "Allows users to keep track of daily schedule.",
+      imageUrl: "https://github.com/ArumMelton/schedule-me/raw/main/assets/images/ScheduleMeScreenshot.png",
+      url: 'https://arummelton.github.io/schedule-me/'
     },
     {
       id: 8,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 9,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    },
-    {
-      id: 10,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 11,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
-    },
-    {
-      id: 12,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 13,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 14,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    },
-    {
-      id: 15,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
-    },
-    {
-      id: 16,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 17,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 18,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    },
-    {
-      id: 19,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 20,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
-    },
-    {
-      id: 21,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 22,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 23,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+      title: "Quizless",
+      subtitle: "An Interactive Coding Quiz Application",
+      imageUrl: "https://github.com/ArumMelton/melts-portfolio/blob/main/assets/images/quizmock1.jpg?raw=true",
+      url: "https://github.com/ArumMelton/Quizless"
     }
   ],
   experience: {

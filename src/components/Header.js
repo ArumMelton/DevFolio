@@ -3,10 +3,13 @@ import React, { useEffect, useState } from "react";
 import LineIcon from "react-lineicons";
 import ProgressiveImage from "react-progressive-image";
 import { Link, NavLink } from "react-router-dom";
+import Socialicons from "./Socialicons";
+import Socialiconsfooter from "./SocialIconsFooter";
 
 function Header() {
   const [information, setInformation] = useState("");
   const [navigationToggler, setNavigationToggler] = useState(false);
+  
 
   const handleNavigationToggler = () => {
     setNavigationToggler(!navigationToggler);
@@ -57,14 +60,10 @@ function Header() {
           </li>
           <li>
             <NavLink to="/portfolios">
-              <span>Portfolios</span>
+              <span>Portfolio</span>
             </NavLink>
           </li>
-          <li>
-            <NavLink to="/blogs">
-              <span>Blogs</span>
-            </NavLink>
-          </li>
+          
           <li>
             <NavLink to="/contact">
               <span>Contact</span>
@@ -72,15 +71,13 @@ function Header() {
           </li>
         </ul>
         <p className="mi-header-copyright">
-          &copy; {new Date().getFullYear()}{" "}
+          
+        
+        {new Date().toLocaleDateString()}{" "}
+        
           <b>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://nuclearthemes.com"
-            >
-              NuclearThemes
-            </a>
+            <span><Socialiconsfooter></Socialiconsfooter></span>
+            
           </b>
         </p>
       </div>

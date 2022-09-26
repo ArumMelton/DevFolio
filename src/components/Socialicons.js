@@ -24,6 +24,21 @@ function Socialicons(props){
           <LineIcon name="twitter"/>
         </a>
       </li>}
+      {!socialLinks.instagram ? null : <li>
+        <a rel="noopener noreferrer" target="_blank" href={socialLinks.instagram}>
+          <LineIcon name="instagram"/>
+        </a>
+      </li>}
+      {!socialLinks.soundcloud ? null : <li>
+        <a rel="noopener noreferrer" target="_blank" href={socialLinks.soundcloud}>
+          <LineIcon name="soundcloud"/>
+        </a>
+      </li>}
+      {!socialLinks.spotify ? null : <li>
+        <a rel="noopener noreferrer" target="_blank" href={socialLinks.spotify}>
+          <LineIcon name="spotify"/>
+        </a>
+      </li>}
       {!socialLinks.pinterest ? null : <li>
         <a rel="noopener noreferrer" target="_blank" href={socialLinks.pinterest}>
           <LineIcon name="pinterest"/>

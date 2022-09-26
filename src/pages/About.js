@@ -5,11 +5,13 @@ import * as Icon from "react-feather";
 import { Helmet } from "react-helmet";
 import ProgressiveImage from "react-progressive-image";
 import Slider from "react-slick";
+import ImageSlider from "../components/ImageSlider";
 import Layout from "../components/Layout";
 import Sectiontitle from "../components/Sectiontitle";
 import Service from "../components/Service";
 import Spinner from "../components/Spinner";
 import Testimonial from "../components/Testimonial";
+
 
 
 function About() {
@@ -72,7 +74,7 @@ function About() {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="mi-about-image">
-                  <ProgressiveImage
+                <ProgressiveImage
                     src={information.aboutImage}
                     placeholder="/images/about-image-placeholder.png"
                   >

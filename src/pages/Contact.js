@@ -70,7 +70,7 @@ function Contact() {
   return (
     <Layout>
       <Helmet>
-        <title>Contact - Chester React Personal Portfolio Template</title>
+        <title>Get In Touch With Arum</title>
         <meta
           name="description"
           content="Chester React Personal Portfolio Template Contact Page"
@@ -140,7 +140,7 @@ function Contact() {
                     </div>
                     <div className="mi-form-field">
                       <button className="mi-button" type="submit">
-                        Send Mail
+                        Send Email
                       </button>
                     </div>
                   </form>
