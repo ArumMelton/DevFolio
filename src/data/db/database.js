@@ -6,7 +6,7 @@ const database = {
   information: {
     name: 'Arum Melton',
     aboutContent: "Full Stack Developer from Raleigh, NC. Welcome to my page!",
-    age: 27,
+    age: '',
     phone: '',
     nationality: '',
     language: '',
