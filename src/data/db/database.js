@@ -29,7 +29,7 @@ const database = {
     brandImage: '/images/ArumsLogo.png',
     aboutImage: 'https://github.com/ArumMelton/imghosting/blob/main/PortfolioShot.jpeg?raw=true',
     aboutImageLg: 'https://github.com/ArumMelton/imghosting/blob/main/PortfolioShot.jpeg?raw=true',
-    cvfile: '/files/ArumResume2022.docx'
+    cvfile: './files/ArumResume2022.docx'
   },
   services: [
     {
