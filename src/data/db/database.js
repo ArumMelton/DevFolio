@@ -27,8 +27,8 @@ const database = {
       itunes: 'https://music.apple.com/us/artist/dvise/1449641255'
     },
     brandImage: '/images/ArumsLogo.png',
-    aboutImage: '/images/falls.jpg',
-    aboutImageLg: '/images/falls.jpg',
+    aboutImage: 'https://github.com/ArumMelton/imghosting/blob/main/PortfolioShot.jpeg?raw=true',
+    aboutImageLg: 'https://github.com/ArumMelton/imghosting/blob/main/PortfolioShot.jpeg?raw=true',
     cvfile: '/files/ArumResume2022.docx'
   },
   services: [
